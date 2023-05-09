@@ -1,0 +1,54 @@
+body {
+  background-color: #272b30;
+  font-family: "Nerko One", cursive;
+  color: white;
+}
+
+header img {
+  max-height: 30vh;
+  background-position: cover;
+  color: white;
+}
+
+.navbar {
+  background-color: rgb(58, 73, 123);
+  border-radius: 30px;
+
+}
+.loading{
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.nav-item .nav-link.active,
+.nav-item .nav-link:hover {
+  color: #09c !important;
+  transition: color 0.5s;
+}
+
+.card {
+  background-color: #272b30;
+
+
+}
+
+.text-muted {
+  --bs-text-opacity: 1;
+  color: white !important;
+  justify-content: space-between;
+}
+
+
+
+
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
